@@ -8,7 +8,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="graphs\graph-1\" />
+      <Folder Include="graphs\graph-100\" />
+      <Folder Include="graphs\graph-10\" />
+      <Folder Include="graphs\graph-20\" />
+      <Folder Include="graphs\graph-50\" />
     </ItemGroup>
 
 </Project>

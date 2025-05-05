@@ -6,7 +6,7 @@ public static class Program
 {
     public static void Main()
     {
-        var graph = DeserializeMatrix("../../../graphs/graph-1/graph.json");
+        var graph = DeserializeMatrix("../../../graphs/graph-7/graph.json");
         PrintMatrix(graph);
         
         var path = TerryAlgorithm(graph, 6, 7);
@@ -107,5 +107,4 @@ public static class Program
         }
         return matrix2D;
     }
-   
 }
